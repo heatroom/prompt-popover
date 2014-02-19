@@ -1,0 +1,27 @@
+{
+  "name": "prompt-popover",
+  "repo": "heatroom/prompt-popover",
+  "description": "Inline popover prompts",
+  "version": "0.0.1",
+  "keywords": [
+    "prompt",
+    "popover",
+    "ui"
+  ],
+  "dependencies": {
+    "component/popover": "*",
+    "component/jquery": "*",
+    "component/inherit": "0.0.2",
+    "component/bind": "0.0.2"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "prompt-popover.css"
+  ]
+}
