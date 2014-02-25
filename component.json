@@ -9,7 +9,7 @@
     "ui"
   ],
   "dependencies": {
-    "component/popover": "*",
+    "heatroom/popover": "*",
     "component/jquery": "*",
     "component/inherit": "0.0.2",
     "component/bind": "0.0.2"
