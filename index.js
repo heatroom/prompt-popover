@@ -26,7 +26,6 @@ function Prompt(title) {
   Popover.call(this, this.actions);
   this.classname = 'popover prompt-popover';
   this.input = this.actions.find('input');
-  this.input.change(bind(this, this._ok));
   this.actions.find('.cancel').click(bind(this, this.oncancel));
   this.actions.find('.ok').click(bind(this, this.onok));
   this.placeholder(title);
@@ -50,7 +49,7 @@ inherit(Prompt, Popover);
 Prompt.prototype.oncancel = function(e){
   e.preventDefault();
   this.emit('cancel');
-  // this.callback(null);
+  this.callback(null);
   this.hide();
 };
 
